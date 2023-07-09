@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWE-645 Assn1_Part2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1>Application Form</h1>
+            <form>
+                <label>Name :</label>
+                <input type="text" name="name" id="name" placeholder="enter name"><br/>
+                <label>Email :</label>
+                <input type="email" name="email" id="email" placeholder="enter mail" required>
+                <br/>
+                <p for="program-select">Choose a program:</p>
+                    <select name="programs" id="program-select">
+                        <option value="">--Please choose an option--</option>
+                        <option value="cs">Computer Science</option>
+                        <option value="se">Software Engineering</option>
+                        <option value="da">Data Analytics</option>
+                        <option value="cys">Cyber Security</option>
+                        <option value="it">Information Technology</option>
+                    </select>
+                <p>Favourite programming language:</p>
+                    <input type="radio" id="language" name="fav_lang" value="c language">
+                    <label for="language">C language</label>
+                    <input type="radio" id="language" name="fav_lang" value="c++">
+                    <label for="language">c++</label>
+                    <input type="radio" id="language" name="fav_lang" value="javascript">
+                    <label for="language">javasript</label>
+                    <input type="radio" id="language" name="fav_lang" value="python">
+                    <label for="language">python</label>
+                <p>Familiar with:</p>
+                    <input type="checkbox" id="lang" name="languages" value="c alnguage">
+                    <label for="lang">c language</label>
+                    <input type="checkbox" id="lang" name="languages" value="c++">
+                    <label for="lang">c++</label>
+                    <input type="checkbox" id="lang" name="languages" value="javascript">
+                    <label for="lang">javascript</label>
+                    <input type="checkbox" id="lang" name="languages" value="python">
+                    <label for="lang">python</label>
+                <p>Tell about yourself:</p>
+                <textarea id="about" rows="9" cols="70"></textarea>
+                <input type="submit" id="submit" value="Submit">
+                <input type="reset" id="reset">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

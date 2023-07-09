@@ -1,0 +1,53 @@
+.container{
+    background-color:#2d3436 ;
+    color: white;
+    text-align: center;
+}
+
+form{
+    background-color: #b2bec3;
+    margin: 0px 200px 50px 200px;
+    color: black;
+}
+
+#lang{
+    margin-bottom:10px;
+}
+
+#language{
+    margin-bottom: 10px;
+}
+
+label{
+    padding: 20px 20px 20px 20px;
+    background-color: #dfe6e9;
+    border-radius: 15%;
+}
+
+#name{
+    margin:20px;
+}
+
+p{
+    margin: 20px 0px 20px 0px;
+}
+
+#email{
+    margin: 20px;
+}
+
+textarea{
+    display: block;
+    margin-left: 300px;
+}
+
+#submit{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 100px;
+    align-self: center;
+}
+
+#reset{
+    display: inline;
+}
