@@ -1,53 +1,80 @@
-.container{
-    background-color:#2d3436 ;
-    color: white;
+
+#heading{
     text-align: center;
 }
 
-form{
-    background-color: #b2bec3;
-    margin: 0px 200px 50px 200px;
-    color: black;
-}
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: beige;
+  }
+  
+ 
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
 
-#lang{
-    margin-bottom:10px;
-}
+  label {
+    /* display: block; */
+    margin-bottom: 5px;
+  }
+  
 
-#language{
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  input[type="date"],
+  textarea {
+    width: 100%;
+    padding: 8px;
     margin-bottom: 10px;
-}
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+ 
+  input[type="submit"],
+  input[type="button"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover,
+  input[type="button"]:hover {
+    background-color: #45a049;
+  }
+  
 
-label{
-    padding: 20px 20px 20px 20px;
-    background-color: #dfe6e9;
-    border-radius: 15%;
-}
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .form-row label {
+    flex-basis: 45%;
+  }
+  
 
-#name{
-    margin:20px;
-}
-
-p{
-    margin: 20px 0px 20px 0px;
-}
-
-#email{
-    margin: 20px;
-}
-
-textarea{
-    display: block;
-    margin-left: 300px;
-}
-
-#submit{
-    display: inline-block;
-    margin-top: 20px;
-    margin-left: 100px;
-    align-self: center;
-}
-
-#reset{
-    display: inline;
-}
+  .form-row input[type="text"],
+  .form-row input[type="tel"],
+  .form-row input[type="email"],
+  .form-row input[type="date"] {
+    flex-basis: 50%;
+  }
+  
+  textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 5px;
+  }
+  
