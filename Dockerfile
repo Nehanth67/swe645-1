@@ -5,5 +5,8 @@ FROM tomcat:latest
 COPY ./swe645part2.war /usr/local/tomcat/webapps/
 
 # Expose the port
-EXPOSE 8080
+#EXPOSE 8080
+
+# Expose the port
+EXPOSE 8090
 
